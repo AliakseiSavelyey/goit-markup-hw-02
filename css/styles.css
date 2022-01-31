@@ -13,7 +13,8 @@
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
-    --primary-white-color: #fff;
+    --primary-white-color: rgb(255, 255, 255);
+    --current-red-color: #f80808;
 }
 body {
   background-color: var(--primary-white-color);
@@ -39,6 +40,12 @@ body {
 .site-nav .title:hover,
 .site-nav .title:focus {
   color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--current-red-color);
+}
+.site-nav .title.current {
+  color: var(--current-red-color);
 }
 /* auth nav */
 .auth-nav .link {
