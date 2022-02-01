@@ -90,7 +90,7 @@ letter-spacing: 0.02em;
 /* hero */
 .hero-title {
   color: var(--primary-white-color);
-  background-color: var(--current-red-color);
+  background-color: #2F303A;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.4;
@@ -117,6 +117,11 @@ line-height: 1.14;
 }
 
 
+/* team */
+.team {
+  background-color: var(--portfolio-bg-color);
+}
+
 /* button */
 .button {
   color: var(--title-text-color) ; 
@@ -127,6 +132,10 @@ line-height: 1.14;
 background-color: var(--accent-color);
 }
 
+/* footer */
+.footer {
+  background: #2F303A;
+}
 
 /* Portfolio */
 /* цвет кнопок: текст-212121, фон-F5F4FA */
