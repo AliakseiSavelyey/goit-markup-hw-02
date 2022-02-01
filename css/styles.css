@@ -13,8 +13,9 @@
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
-    --primary-white-color: rgb(255, 255, 255);
+    --primary-white-color: #fff;
     --current-red-color: #f80808;
+    --portfolio-bg-color: #F5F4FA;
 }
 body {
   background-color: var(--primary-white-color);
@@ -80,12 +81,20 @@ body {
 
 /* button */
 .button {
-  color: var(--title-text-color); 
+  color: var(--title-text-color) ; 
   background-color: var(--primary-white-color);
 }
 .button.primary {
-  background-color: var(--accent-color);
   color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 
+
 /* Portfolio */
+/* цвет кнопок: текст-212121, фон-F5F4FA */
+
+.button.portfolio:hover,
+.button.portfolio:focus {
+  color: var(--portfolio-bg-color);
+  background-color: var(--accent-color);
+}
