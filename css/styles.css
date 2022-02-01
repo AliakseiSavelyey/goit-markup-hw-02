@@ -21,8 +21,11 @@
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
+  font-weight: 400;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.7;
 }
 .list {
   list-style: none;
@@ -97,10 +100,17 @@ letter-spacing: 0.06em;
 /* section */
 .section-title {
   color: var(--title-text-color);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
 }
-/* feature */
+/* скрытый заголовок*/
 .feature-list .title {
   color: var(--title-text-color);
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
 }
 .feature-list .link {
   color: var(--accent-color);
